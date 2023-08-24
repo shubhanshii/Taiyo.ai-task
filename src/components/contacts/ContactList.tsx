@@ -46,15 +46,16 @@ const ContactList = ({ id, firstName, lastName, status }: Contact) => {
         >
           Edit
         </button>
+        <button onClick={()=> navigate('ContactDetails')} className='bg-blue-500 px-3 py-2 rounded-xl text-xs md:text-base text-white'>
+Contact Details 
+        </button>
         <button
           onClick={onClickDeleteHandler}
           className="bg-red-500 text-white text-sm md:text-base px-3 py-2 md:px-4 md:py-2  rounded-xl shadow-lg hover:bg-red-400"
         >
           Delete
         </button>
-        <button onClick={()=> navigate('ContactDetails')} className='bg-gray-500'>
-Contact 
-        </button>
+       
       </div>
     </div>
   );

@@ -13,8 +13,8 @@ function App() {
               to={'/contacts'}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-blue-950 font-bold mr-auto'
-                  : 'hover:text-slate-500 mr-auto'
+                  ? 'text-blue-950 font-bold mr-auto text-xs md:text-lg'
+                  : 'hover:text-slate-500 mr-auto text-xs md:text-lg'
               }
             >
               Contacts
@@ -23,8 +23,8 @@ function App() {
               to={'/charts-maps'}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-blue-950 font-bold mr-auto'
-                  : 'hover:text-slate-500 mr-auto'
+                  ? 'text-blue-950 font-bold mr-auto text-xs md:text-lg'
+                  : 'hover:text-slate-500 mr-auto text-xs md:text-lg'
               }
             >
               Charts and Maps
